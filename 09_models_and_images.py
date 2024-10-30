@@ -106,7 +106,7 @@ class Scene:
             ''',
         )
 
-        self.texture = ImageTexture('examples/data/textures/crate.png')
+        self.texture = ImageTexture('C:\\Users\julie\OneDrive\Documents\School\multiagentes\cg-booting-up-julietarteaga\simbolo-tec-blue.png')
 
         self.car_geometry = ModelGeometry('examples/data/models/lowpoly_toy_car.obj')
         self.car = Mesh(self.program, self.car_geometry)
