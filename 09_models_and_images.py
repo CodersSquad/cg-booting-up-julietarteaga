@@ -106,12 +106,12 @@ class Scene:
             ''',
         )
 
-        self.texture = ImageTexture('C:\\Users\julie\OneDrive\Documents\School\multiagentes\cg-booting-up-julietarteaga\simbolo-tec-blue.png')
+        self.texture = ImageTexture('simbolo-tec-blue.png')
 
-        self.car_geometry = ModelGeometry('examples/data/models/lowpoly_toy_car.obj')
+        self.car_geometry = ModelGeometry('crate.obj')
         self.car = Mesh(self.program, self.car_geometry)
 
-        self.crate_geometry = ModelGeometry('examples/data/models/crate.obj')
+        self.crate_geometry = ModelGeometry('crate.obj')
         self.crate = Mesh(self.program, self.crate_geometry, self.texture)
 
     def camera_matrix(self):
